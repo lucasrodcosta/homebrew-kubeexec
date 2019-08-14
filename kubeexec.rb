@@ -5,7 +5,7 @@ class Kubeexec < Formula
   sha256 "4f55ff0852ad77e293525c481e23f6f560954d17c501aead5c115a127078362f"
   head "https://github.com/lucasrodcosta/kubeexec.git"
 
-  depends_on "itermocil"
+  depends_on "TomAnthony/brews/itermocil"
 
   def install
     bin.install "kubeexec.rb" => "kubeexec"
